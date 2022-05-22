@@ -1,0 +1,34 @@
+{
+  "name": "burner-wallet-2",
+  "description": "Robust, modular burner wallet",
+  "repository": "https://github.com/dmihal/burner-wallet-2.git",
+  "author": "David Mihal <david@dmihal.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "install": "lerna bootstrap",
+    "build": "lerna run --ignore local-wallet --ignore basic-wallet build",
+    "build:esm": "lerna exec --stream --parallel -- ../../node_modules/.bin/tsc --outDir dist/esm --module esnext --target esnext",
+    "lint": "eslint '*/**/*.{js,ts,tsx}'",
+    "start-basic": "lerna run --parallel start-basic",
+    "start-local": "lerna run --parallel start-local"
+  },
+  "workspaces": [
+    "basic-wallet",
+    "exchange",
+    "local-wallet",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "lerna": "^3.16.4",
+    "ts-node": "^8.5.2",
+    "gh-pages": "^4.0.0"
+  },
+  "dependencies": {
+    "typescript": "3.5.1"
+  }
+}

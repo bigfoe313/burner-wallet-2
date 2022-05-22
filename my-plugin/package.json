@@ -1,0 +1,35 @@
+{
+  "name": "my-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/MyPlugin.js",
+  "types": "dist/MyPlugin.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start-basic": "tsc -w",
+    "start-local": "tsc -w"
+  },
+  "dependencies": {
+    "@burner-wallet/assets": "^1.0.0",
+    "@burner-wallet/types": "^1.0.0",
+    "@types/react": "*"
+  },
+  "homepage": "https://bigfoe313.github.io/ACashWallet",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

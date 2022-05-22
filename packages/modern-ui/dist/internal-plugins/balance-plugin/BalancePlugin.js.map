@@ -1,0 +1,1 @@
+{"version":3,"file":"BalancePlugin.js","sourceRoot":"","sources":["../../../src/internal-plugins/balance-plugin/BalancePlugin.ts"],"names":[],"mappings":"AACA,OAAO,UAAU,MAAM,cAAc,CAAC;AAEtC,MAAM,CAAC,OAAO,OAAO,aAAa;IAChC,gBAAgB,CAAC,OAA4B;QAC3C,OAAO,CAAC,UAAU,CAAC,UAAU,EAAE,UAAU,EAAE,EAAE,KAAK,EAAE,MAAM,EAAE,CAAC,CAAC;IAChE,CAAC;CACF"}

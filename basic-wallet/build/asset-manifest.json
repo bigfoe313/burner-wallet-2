@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/static/js/main.fc5012ec.chunk.js",
+    "main.js.map": "/static/js/main.fc5012ec.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7bb431dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7bb431dd.js.map",
+    "static/js/2.cd8de2b6.chunk.js": "/static/js/2.cd8de2b6.chunk.js",
+    "static/js/2.cd8de2b6.chunk.js.map": "/static/js/2.cd8de2b6.chunk.js.map",
+    "static/js/3.6a578846.chunk.js": "/static/js/3.6a578846.chunk.js",
+    "static/js/3.6a578846.chunk.js.map": "/static/js/3.6a578846.chunk.js.map",
+    "static/js/4.aeceb2a4.chunk.js": "/static/js/4.aeceb2a4.chunk.js",
+    "static/js/4.aeceb2a4.chunk.js.map": "/static/js/4.aeceb2a4.chunk.js.map",
+    "burnerconnect-bridge.html": "/burnerconnect-bridge.html",
+    "burnerconnect-login.html": "/burnerconnect-login.html",
+    "burnerprovider.js": "/burnerprovider.js",
+    "burnerprovider.js.map": "/burnerprovider.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e47a682da497b6dc01e9b679efee0654.js": "/precache-manifest.e47a682da497b6dc01e9b679efee0654.js",
+    "service-worker.js": "/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bb431dd.js",
+    "static/js/2.cd8de2b6.chunk.js",
+    "static/js/main.fc5012ec.chunk.js"
+  ]
+}

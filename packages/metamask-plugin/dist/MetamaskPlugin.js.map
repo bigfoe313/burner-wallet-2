@@ -1,0 +1,1 @@
+{"version":3,"file":"MetamaskPlugin.js","sourceRoot":"","sources":["../src/MetamaskPlugin.ts"],"names":[],"mappings":"AACA,OAAO,cAAc,MAAM,kBAAkB,CAAC;AAE9C,MAAM,CAAC,OAAO,OAAO,cAAc;IACjC,gBAAgB,CAAC,aAAkC;QACjD,aAAa,CAAC,UAAU,CAAC,aAAa,EAAE,cAAc,CAAC,CAAC;IAC1D,CAAC;CACF"}

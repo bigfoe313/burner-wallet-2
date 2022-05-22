@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../packages/exchange/dist/pairs/abis/index.js"],"names":[],"mappings":"osWAAA","file":"static/js/4.aeceb2a4.chunk.js","sourcesContent":["export { default as uniswapToken } from './UniswapTokenPurchase.json';\nexport { default as uniswapFactory } from './UniswapFactory.json';"],"sourceRoot":""}
